@@ -127,12 +127,8 @@ ggcorrplot(cor(na.omit(thyroid[,index])))
 cor.test(thyroid$TT4,thyroid$FTI)
 cor
 
-#RESEARCH QUESTION 3: Can the presence of specific symptoms or medical history factors be indicative of thyroid sickness?
 
-#medication column vs class column ile yap
-
-
-##########RESEARCH QUESTION 4: Are there any significant difference between Class and TSH?######
+##########RESEARCH QUESTION 3: Are there any significant difference between Class and TSH?######
 
 negative <- subset(thyroid, Class == "negative")
 positive <- subset(thyroid, Class == "sick")
