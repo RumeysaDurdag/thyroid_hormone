@@ -1,4 +1,4 @@
-##RÜMEYSA DURDAĞ / 2290658
+##RÜMEYSA DURDAĞ 
 
 
 getwd()
